@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <style> 
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+ 
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+    body{
+       
+      background:whitesmoke;
+      background-color: #f1f1f1;
+    
+   font-family: Arial;
+      background-image: url('zach.jpg');
+  
+     
+    }
+    header{
+       background:#ca9bf7;
+    }
+    </style>
+    <link href="design.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title> LeannesWebsite </title>
+ </head>
+ <body>
+
+<header>
+   <div class ="container">
+      <h1>Leanne's Website</h1>
+            <nav>
+              
+               
+               <ul>
+                  <li><a href="index.html">Home Page</a></li>
+                  <li><a href="Portfolio.html">Portfolio </a></li>
+                  <li><a href="Qualifications.html">Qualifications</a></li>
+                  <li><a href="service.html">Service </a></li>
+                  
+               </ul>
+            </nav>
+            
+   </div>
+</header>
+<p><button onclick="myFunction()">Click for Header in French/English </button></p>
+
+<div 
+id="myDIV" style="text-align:center;padding-top: 60px; color:teal;;font-size: 25;"><h2>Portfolio Page</h2>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML == "Page de Portefeuille") {
+    x.innerHTML = "Portfolio Page";
+  } else  {
+    x.innerHTML = "Page de Portefeuille";
+    
+  }
+ document.getElementById("myDIV").style.fontSize="35px";
+}
+</script>
+<div class="main">
+  
+   
+   <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="vexrob.jpg" alt="Vex Robotics" style="width:100%  ">
+          <h3>Vex Robotics</h3>
+          
+          <p style="color: #ca9bf7">One of my proudest projects was working with the Women In Engineering Vex robotics team. The vex challange is a middle school through college robotics comptition that brings computer science and computational thinking to life. I worked with the computer science team to help design and program a robot using VEX parts and C++ programming language. I learned how to navigate github and work with a team of powerful women to build our design into fruition. In 2020 for the first time in our team's history our VEX-U robotics team won the Excellence award in Houston, and qualified for the world Championships in Louisville Kentucky.However, it was cancelled due to covid.This project provided me hands on experience with improving my technical skills.
+            <br><a href="https://engineering.tamu.edu/news/2020/05/Texas-AM-all-female-robotics-team-wins-top-award-at-competition.html" target="_blank">Vex Team Article</a>
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+        <img src="studying.jfif" alt="Studytimekeeper" style="width:100%">
+          <h3>Studytimekeeper</h3>
+          <p style="color: #ca9bf7">A personal project of my own that I really enjoyed was working on building my own app. This project I begun in high school as a way of showing my interest in Computer Science. Now, it is a fully published app on the android app store that allows students to track the amount of time they have spent working on each subject for school. This app helped me keep track of the amount of time I was working on my SAT preperation and other course material.I learned how to navigate and use android studio and develop my skills with programming through this project. I was able to build my java project through the utilization of Android studio and gain more in depth understanding of building in parts and testing code rather than attempting to run it all at once. </p>
+          <br><a href="https://apkpure.com/study-time-keeper-time-tracking-for-students/com.studytimekeeper" target="_blank">Study Time Keeper link</a>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="content">
+     
+        <img src="nonhowy.png" alt="hackathon" style="width: 100% ";>
+          <h3>Hackathon</h3>
+          <p style="color: #ca9bf7">A technical project that interets me to want to complete is going to a tamu hackathon and creating a project that I am proud of. With hectic scheduling I have never been able to participate in a hackathon and think it would be a great experience. Not only is it an excellent tool to learn to work in groups, but as well it is an excellent way to be creative and not be restricted by a specific set of instructions. It is mostly up to your interpretation of what you want to build and I think it is a great way to showcase projects and even meet with companies. Hackathons help with improving your execution and efficiency skills and could help push me to think outside of the box. I hope to in the spring semester or at least by senior year participate in building a technical project at a hackathon. </p>
+          <br><a href="https://tamuhack.com/" target="_blank">Hackathon WebPage</a>
+        </div>
+    
+     
+
+
+</div>
+
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+

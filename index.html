@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <style> 
+    
+    header{
+       background:#D7A9E3FF;
+    }
+    body {
+  
+      background-color: black;
+      color: black;
+      font-size: 25px;
+      }
+
+.dark-mode {
+  background-color: whitesmoke;
+  color: white;
+}
+    </style>
+    <link href="design.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+   
+    <title> LeannesWebsite </title>
+ </head>
+ 
+
+<header>
+   <div class ="container">
+      <h1>Leanne's Website</h1>
+            <nav>
+              
+               
+               <ul>
+                  <li><a href="index.html">Home Page</a></li>
+                  <li><a href="Portfolio.html">Portfolio </a></li>
+                  <li><a href="Qualifications.html">Qualifications</a></li>
+                  <li><a href="service.html">Service </a></li>
+                  
+               </ul>
+            </nav>
+            
+   </div>
+</header>
+   
+<div class="image">
+   <img src="leannepic2.png" width="50%" height=30%/>
+   <img src="additionalpic.png"  style="float:right" width="49.2%" height="90%"/>
+</div>
+
+<a href=https://engineering.tamu.edu/news/soundbytes-podcast/index.html target="_blank" style="color: teal;"  ><h3>SoundBytes Podcast Page</h3></a>
+<a href=https://www.freefreshmen.com/ target="_blank" style="color: teal;"><h3>Freshmen Reaching Excellence in Engineering Page</h3></a>
+
+
+<div class="circular-sb">
+   <h6> <p style="color: #D7A9E3FF">Howdy, My name is Leanne Khashab.<br>
+       I am currently a Junior Computer Science major from
+        <br>Dallas, Tx and have created this website for you to get to know 
+        <br>me a litte more! A fun fact about me outside from my  
+        <br>programming projects, is that I love being outdoors.
+         If you couldn't
+        <br> tell from my picture I love going on hikes when 
+        I travel or any outdoor activities.
+        I love to travel whenever I get the chance and have 
+        already visited over 25 countries around the world.
+         At A&M I am part of an organization known as FREE which 
+         involves helping mentor freshmen engineers as they make the
+          transition from high school to college. We also help build 
+          their professional skills. I worked alongside my partner last 
+          year to bring company speakers from NASA and Exxonmobile to 
+          present to the freshmen, and arranged resume building workshops. 
+      Last spring I joined the Engineering podcasting team. 
+      This <br>university level  podcast known as SoundBytes allows 
+      our<br> team to interview students and faculty over critical <br>
+      social issues. Feel free to click through the other <br>tabs on 
+      my webpage at the bottom are <br>links to my organization and podcast .
+      </p></h6>
+  <div class="circle3"></div>
+  <div class="circle4"></div>
+</div>
+
+</div>
+
+<button onclick="myFunction()" id="button">Dark/Light Mode Button</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+ </body>
+</html>
+
+
